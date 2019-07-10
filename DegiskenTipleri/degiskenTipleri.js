@@ -1,7 +1,7 @@
-function selamVer(isim) {
+function Merhaba(isim) {
     return "Merhaba " + isim;
 }
-var mesaj = selamVer("ozan");
+var mesaj = Merhaba("ozan");
 console.log(mesaj);
 var sayi = 10;
 var sayi1;
@@ -24,20 +24,20 @@ var Renkler;
 })(Renkler || (Renkler = {}));
 var renk = Renkler.Kirmizi;
 console.log(renk);
-var anyType = "Bursa";
-anyType = 2; //En son değeri alır
-console.log(anyType);
-var voidType1 = undefined;
-console.log(voidType1);
-var voidType = undefined;
-voidType = console.log("Kaydedildi");
+var anyTipi = "Bursa"; // Daha çok servislerden tipini bilmediğimiz durumlarda kullanırız.
+anyTipi = 2; //En son değeri alır
+console.log(anyTipi);
+var voidTipi1 = undefined;
+console.log(voidTipi1);
+var voidTipi = undefined;
+voidTipi = console.log("Kaydedildi");
 function voidFunction() {
     console.log("Silindi");
     //  return "Selam" geri dönüş yapamayız.
 }
 var voidMesaj = voidFunction();
 //undefined null
-var numberUndefined; //suan bir şey atanmamıs undefined yani tip için kullanılır
+var sayiUndefined; //suan bir şey atanmamıs undefined yani tip için kullanılır
 var NullObject = /** @class */ (function () {
     function NullObject() {
     }
