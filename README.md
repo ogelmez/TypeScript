@@ -1,5 +1,5 @@
 # TypeScript
-TypeScript ile alakallı temel kavramlar ve örnekler.
+TypeScript ile alakalı temel kavramlar ve örnekler.
 
 Gereksinimler: Nodemon, Typescript, Node.js
 
